@@ -1,6 +1,8 @@
 <!-- default badges list -->
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/581556341/22.2.2%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1136189)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+[![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
 # Web Document Viewer - How to Store and Use Custom Document Data
 
@@ -28,3 +30,10 @@ class descendant to save, load and process user data. The overridden [CachedDocu
 
 - [Reporting for Web (ASP.NET MVC) - How to Display the Name of the Current Logged in User in a Report](https://github.com/DevExpress-Examples/Reporting_webdocumentviewer-xrpageinfo-with-pageinfousername-display-the-name-of-a-logged-t484189)
 - [How to implement a custom authorization service](https://github.com/DevExpress-Examples/Reporting_how-to-implement-a-custom-authorization-service-t488888)
+<!-- feedback -->
+## Does this example address your development requirements/objectives?
+
+[<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-web-viewer-document-custom-data&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-web-viewer-document-custom-data&~~~was_helpful=no)
+
+(you will be redirected to DevExpress.com to submit your response)
+<!-- feedback end -->
