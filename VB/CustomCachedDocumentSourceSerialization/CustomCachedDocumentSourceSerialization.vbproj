@@ -1,23 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>
-    </ProductVersion>
+    <ProductVersion></ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{8D92E854-BF63-48A5-9D1F-6937896C7D8F}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <AssemblyName>CustomCachedDocumentSourceSerialization</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileUpgradeFlags></FileUpgradeFlags>
     <OldToolsVersion>4.0</OldToolsVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -62,67 +59,67 @@
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
-    <Reference Include="DevExpress.Drawing.v22.2">
+    <Reference Include="DevExpress.Drawing.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Data.v22.2">
+    <Reference Include="DevExpress.Data.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Web.ASPxThemes.v22.2">
+    <Reference Include="DevExpress.Web.ASPxThemes.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v22.2.Core">
+    <Reference Include="DevExpress.RichEdit.v24.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v22.2.Export">
+    <Reference Include="DevExpress.RichEdit.v24.2.Export">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Printing.v22.2.Core">
+    <Reference Include="DevExpress.Printing.v24.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Web.v22.2">
+    <Reference Include="DevExpress.Web.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v22.2">
+    <Reference Include="DevExpress.XtraReports.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v22.2.Web">
+    <Reference Include="DevExpress.XtraReports.v24.2.Web">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v22.2.Web.WebForms">
+    <Reference Include="DevExpress.XtraReports.v24.2.Web.WebForms">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Pdf.v22.2.Core">
+    <Reference Include="DevExpress.Pdf.v24.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Web.Resources.v22.2">
+    <Reference Include="DevExpress.Web.Resources.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Charts.v22.2.Core">
+    <Reference Include="DevExpress.Charts.v24.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.CodeParser.v22.2">
+    <Reference Include="DevExpress.CodeParser.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.DataAccess.v22.2">
+    <Reference Include="DevExpress.DataAccess.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Office.v22.2.Core">
+    <Reference Include="DevExpress.Office.v24.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.PivotGrid.v22.2.Core">
+    <Reference Include="DevExpress.PivotGrid.v24.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Sparkline.v22.2.Core">
+    <Reference Include="DevExpress.Sparkline.v24.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpo.v22.2">
+    <Reference Include="DevExpress.Xpo.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v22.2">
+    <Reference Include="DevExpress.XtraCharts.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraGauges.v22.2.Core">
+    <Reference Include="DevExpress.XtraGauges.v24.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
   </ItemGroup>
@@ -186,8 +183,7 @@
           <IISUrl>http://localhost:1702/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
+          <CustomServerUrl></CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
